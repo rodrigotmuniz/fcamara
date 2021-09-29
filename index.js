@@ -1,3 +1,7 @@
-exports.test1 = () => {
-  console.log('test 1')
+exports.sum = (a, b) => {
+  return a + b;
+}
+
+exports.multiply = (a, b) => {
+  return a * b
 }
